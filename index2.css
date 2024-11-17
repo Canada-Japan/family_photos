@@ -1,0 +1,173 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+.all2 {
+    display: block;
+    opacity: 1;
+}
+
+.all {
+    display: none;
+    opacity: 0;
+}
+.all2 img{
+    margin-left:-5vw;
+    margin-top:15vw;
+    margin-bottom:15vw;
+    width:90vw;
+    height:auto;
+    border-radius:2.5vw;
+    box-shadow:0 0 10px 2px lightgray;
+}
+.top0{
+    width:100vw;
+    height:150vw;
+}
+.top0 pre{
+    width:100vw;
+    margin-top:5vw;
+    text-align: center;
+font-size:25vw;
+font-weight:600;
+}
+.top {
+    position: relative;
+}
+
+.top h1 {
+    position: absolute;
+    top: 30%;
+    font-size: 6vw;
+    padding: 1vw;
+    color: white;
+}
+
+.top img {
+
+    width: 100vw;
+    height: auto;
+}
+
+.scroll {
+    position: fixed;
+    left: 1vw;
+    bottom: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    opacity: 0;
+    transition: all 0.65s;
+    display: block;
+}
+
+.scroll.isActive {
+    opacity: 1;
+    transition: all 0.65s;
+}
+
+.button {
+    position: relative;
+    width: 20vw;
+    height: 7.5vw;
+    margin: 0;
+    font-size: 2vw;
+    text-align: center;
+    border: 1px solid white;
+    display: block;
+    transition: 0.5s
+}
+
+.button p {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    font-size: 2vw;
+    transition: 0.1s
+}
+
+.top2 h1 {
+    font-size: 12vw;
+    padding: 1vw;
+    margin-bottom:0;
+    color: black;
+}
+
+.h40 {
+    height:6vh;
+    line-height:6vh;
+    margin-top: 0;
+    
+    margin-right: 2vw;
+    margin-bottom: 0vw;
+    padding-left: 1vw;
+    padding-right: 2vw;
+    padding-bottom: 0vw;
+    font-size: 8vw;
+    border-left: 2vw solid black;
+    display: inline-block;
+    transition: 0.5s;
+    
+}
+
+.h4s{
+    border-bottom:0.25vw solid black;
+    margin-left:1vw;
+    margin-right:1vw;
+    margin-bottom:2vw;
+}
+
+.place{
+    position: relative;
+    height:6vh;
+    width:100vw;
+    margin:0;
+}
+.place p {
+    display: inline-block;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    margin-top:0;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top:1vh;
+    padding-bottom:1vh;
+    font-weight: 520;
+    font-size: 5vw;
+    color: white;
+    text-align:center;
+    border:2px solid white;
+}
+.place p:hover{
+background-color:#fff;
+color:black;
+}
+.place .now{
+    position:absolute;
+    top:1vh;
+    right:6vw;
+    height:6vh;
+    padding-right: 8vw;
+    padding-left:6vw;
+    line-height:6vh;
+    font-size:6vw;
+    font-weight:600;
+    border:2px solid black;
+    display:none;
+}
+.middle{
+    height:6vh;
+    margin:0;
+}
+.div{
+    display: none;
+    
+    padding:0;
+    padding-top:1.5vh;
+    margin:0;
+    background-color: black;
+}
